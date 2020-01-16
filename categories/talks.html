@@ -1,0 +1,62 @@
+---
+layout: default
+permalink: /talks/
+pagination: 
+  enabled: true
+  category: talk
+  permalink: /:num/
+---
+
+<header class="post-header">
+    <h1><a href="https://sigtacs.github.io/">
+      <div class="site-title">SIGTACS</div>
+    </a>
+  </h1>
+    <h2 class="talk-post"> Talks </h2>
+
+  <ul>
+    {% for post in paginator.posts %}
+        <li>
+          <a href="#{{ post.id }}">{{ post.title }}</a>
+        </li>
+    {% endfor %}
+  </ul>
+
+  <div class="pagination">
+    {% if paginator.previous_page %}
+      <a href="{{ paginator.previous_page_path }}" class="previous">
+        Previous
+      </a>
+    {% else %}
+      <span class="previous">Previous</span>
+    {% endif %}
+    <span class="page_number ">
+      Page: {{ paginator.page }} of {{ paginator.total_pages }}
+    </span>
+    {% if paginator.next_page %}
+      <a href="{{ paginator.next_page_path }}" class="next">Next</a>
+    {% else %}
+      <span class="next ">Next</span>
+    {% endif %}
+  </div>
+</header>
+
+<section>
+    <!--<small>{{ page.date | date: "%-d %B %Y" }}</small>-->
+
+    {% for post in paginator.posts %}
+            <h2 id = "{{ post.id }}">{{ post.title }}</h2>
+            <p class="view">by {{ post.author | default: site.author }}</p>
+            <p class="view">coordinates {{ post.coordinates }}</p>
+
+            <div class = "talk-content">
+                {{ post.content }}
+            </div>
+
+
+            <!-- {% if post.tags %}
+                <small>tags: <em>{{ page.tags | join: "</em> - <em>" }}</em></small>
+            {% endif %} -->
+            <hr>
+    {% endfor %}
+  </section>

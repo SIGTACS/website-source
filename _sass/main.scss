@@ -1,0 +1,55 @@
+html {
+    scroll-behavior: smooth;
+}
+
+hr {
+    margin-top: 1em;
+    margin-bottom: 2em;
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: -webkit-linear-gradient(left, #ccc, #267CB9, #ccc);
+    background-image: -moz-linear-gradient(left, #ccc, #267CB9, #ccc);
+    background-image: -ms-linear-gradient(left, #ccc, #267CB9, #ccc);
+    background-image: -o-linear-gradient(left, #ccc, #267CB9, #ccc);
+    }
+
+.site-title{
+    margin: 0 0 0 0;
+    text-align: center;
+}
+
+
+.site-description{
+    text-align: justify;
+}
+
+header {
+    padding-top: 10%;
+}
+
+.post-header{
+    padding-top:0%;
+}
+
+.navbar{
+    text-align: center;
+    width: 100%;
+    margin:0 0 10px;
+}
+
+.navbar-links{
+    display: inline-block;
+}
+
+.navbar .navbar-links+.navbar-links{
+    margin-left:20px;
+}
+
+.talk-post{
+    text-align: center;
+}
+
+.talk-content{
+    text-align: justify;
+}
