@@ -4,7 +4,7 @@ categories:
   - talk
 title:  "Characterising Hardness for QBF Resolution via Circuit Complexity."
 author: " Prof. Meena Mahajan"
-coordinates: KD101, 4 PM 14th Feb 2020
+coordinates: KD101, 11AM 14th Feb 2020
 tags: 
 ---
 ## Abstract
@@ -16,4 +16,4 @@ Joint work with Olaf Beyersdorff and Joshua Blinkhorn. ECCC Technical Report [TR
 About the Speaker:
 Meena Mahajan is a professor at Institute of Mathematical Sciences, Chennai. She completed her B.Tech and M.Tech from IIT Bombay and her Ph.D.
 at IIT Madras under Prof. Kamala Kritivasan. She has been a faculty at IMSc since 1994. She has extensively contributed in the area of
-Computational Complexity Theory especially Algebraic Complexity, Circuit Complexity, Proof Complexity and its connections to Automata.
+Computational Complexity Theory especially Algebraic Complexity, Circuit  Complexity, Proof Complexity and its connections to Automata.
