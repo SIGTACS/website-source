@@ -5,6 +5,7 @@ categories:
 title:  "Lower and Upper bounds for Read once oblivious ABPs"
 author: "Pranav Bisht"
 coordinates: "KD102, 4 PM 2nd Nov 2019"
+link: "https://youtu.be/ekXNfqykcv4"
 tags: 
 ---
 ## Abstract

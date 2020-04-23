@@ -47,9 +47,9 @@ pagination:
     {% for post in paginator.posts %}
             <h2 id = "{{ post.id }}">{{ post.title }}</h2>
             <p class="view">by {{ post.author | default: site.author }}</p>
-            <p class="view">coordinates 
+            <p class="view">coordinates {{ post.coordinates }} - 
               {% if post.link %}
-                <a href="{{ post.link }}"> {{ post.coordinates }} </a>
+                <a href="{{ post.link }}"> Watch It Here</a>
               {% else %}
                 {{ post.coordinates }}
               {% endif %}
