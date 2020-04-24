@@ -25,6 +25,7 @@ hr {
 }
 
 header {
+    height: 100%;
     padding-top: 10%;
 }
 
@@ -52,4 +53,27 @@ header {
 
 .talk-content{
     text-align: justify;
+}
+
+.post-link{
+    white-space:nowrap; 
+    overflow:hidden; 
+    text-overflow:ellipsis;
+    font-size: medium;
+}
+
+.post-list{
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.post-author{
+    float: left;
+    font-style: italic;
+}
+
+.post-date {
+    float: right;
+    font-style: italic;
 }
