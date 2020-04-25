@@ -6,17 +6,17 @@ layout: homepage
 
 {% for post in site.categories.talk %}
     <h2 id = "{{ post.id }}">{{ post.title }}</h2>
-    <p class="view">by {{ post.author | default: site.author }}</p>
-    <p class="view">coordinates {{ post.coordinates }} - 
-        {% if post.link %}
-          <a href="{{ post.link }}"> Watch It Here</a>
-        {% else %}
-          {{ post.coordinates }}
-        {% endif %}
+    <div  class="talk-sub-head">
+        <p class="view post-author">by {{ post.author | default: site.author }}</p>
+        <p class="view post-cod">Coordinates: {{ post.coordinates }} 
+          {% if post.link %}
+            <a href="{{ post.link }}">- Watch It Here</a>
+          {% endif %}
         </p>
-    {% if post.slides == "true"%}
-              <p class="view"> <a href="/assets/resource/2020-04-16-Pranjal-Dutta.pdf"> Slides</a> </p>
-    {% endif %}
+      </div>
+      {% if post.slides%}
+          <p class="view"> <a href="/assets/resource/{{ post.slides }}"> Slides</a> </p>
+      {% endif %}
 
     <div class = "talk-content">
         {{ post.content }}
@@ -30,8 +30,18 @@ layout: homepage
 
 {% for post in site.categories.lecture %}
     <h2 id = "{{ post.id }}">{{ post.title }}</h2>
-    <p class="view">by {{ post.author | default: site.author }}</p>
-    <p class="view">coordinates {{ post.coordinates }}</p>
+
+    <div  class="talk-sub-head">
+        <p class="view post-author">by {{ post.author | default: site.author }}</p>
+        <p class="view post-cod">Coordinates: {{ post.coordinates }} 
+          {% if post.link %}
+            <a href="{{ post.link }}">- Watch It Here</a>
+          {% endif %}
+        </p>
+      </div>
+      {% if post.slides%}
+          <p class="view"> <a href="/assets/resource/{{ post.slides }}"> Slides</a> </p>
+      {% endif %}
 
     <div class = "talk-content">
         {{ post.content }}
