@@ -21,7 +21,7 @@ pagination:
             <a href="#{{ post.id }}">{{ post.title }}</a></div>
           <div>
             <div class="post-author">{{ post.author }}</div>
-            <div class="post-date">{{ post.date | date_to_string }}</div>
+            <div class="post-cod">{{ post.date | date_to_string }}</div>
           </div>
         </div>
         <!--
@@ -56,20 +56,21 @@ pagination:
 
     {% for post in paginator.posts %}
             <h2 id = "{{ post.id }}">{{ post.title }}</h2>
-            <p class="view">by {{ post.author | default: site.author }}</p>
-            <p class="view">coordinates {{ post.coordinates }} 
-              {% if post.link %}
-                <a href="{{ post.link }}">- Watch It Here</a>
-              {% endif %}
+            <div  class="talk-sub-head">
+              <p class="view post-author">by {{ post.author | default: site.author }}</p>
+              <p class="view post-cod">Coordinates: {{ post.coordinates }} 
+                {% if post.link %}
+                  <a href="{{ post.link }}">- Watch It Here</a>
+                {% endif %}
               </p>
-            {% if post.slides == "true"%}
-              <p class="view"> <a href="/assets/resource/2020-04-16-Pranjal-Dutta.pdf"> Slides</a> </p>
+            </div>
+            {% if post.slides%}
+                <p class="view"> <a href="/assets/resource/{{ post.slides }}"> Slides</a> </p>
             {% endif %}
 
             <div class = "talk-content">
                 {{ post.content }}
             </div>
-
 
             <!-- {% if post.tags %}
                 <small>tags: <em>{{ page.tags | join: "</em> - <em>" }}</em></small>
