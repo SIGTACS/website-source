@@ -5,6 +5,7 @@ categories:
 title:  "Fault-Tolerant Reachability and Strong-connectivity Structures"
 author: "Keerti Choudhary"
 coordinates: KD103, 4 PM 7th Oct 2019
+slides: "2019-10-7-Keerti-Choudhary.pdf"
 tags: 
 ---
 ## Abstract

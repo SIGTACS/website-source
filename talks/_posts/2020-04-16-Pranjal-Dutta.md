@@ -5,7 +5,7 @@ categories:
 title:  " Lower bounds on the sum of 25th-powers of univariates lead to complete derandomization of PIT "
 author: " Pranjal Dutta"
 coordinates: 
-slides: "true"
+slides: "2020-04-16-Pranjal-Dutta.pdf"
 link: "https://youtu.be/LbnTr-CeWxs"
 tags: 
 ---
