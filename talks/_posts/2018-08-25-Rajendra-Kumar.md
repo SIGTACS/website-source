@@ -15,6 +15,6 @@ No prior knowledge related to lattice is required.
 
 References:
 
-1) Arora, S., Babai, L., Stern, J., and Sweedyk, Z. (1993, November). The hardness of approximate optima in lattices, codes, and systems of linear equations. In Foundations of Computer Science, 1993. Proceedings., 34th Annual Symposium on (pp. 724-733). IEEE.
+1. Arora, S., Babai, L., Stern, J., and Sweedyk, Z. (1993, November). The hardness of approximate optima in lattices, codes, and systems of linear equations. In Foundations of Computer Science, 1993. Proceedings., 34th Annual Symposium on (pp. 724-733). IEEE.
 
-2) D. Micciancio The shortest vector problem is NP-hard to approximate to within some constant. SIAM Journal on Computing 30(6):2008-2035 (March 2001) 
+2. D. Micciancio The shortest vector problem is NP-hard to approximate to within some constant. SIAM Journal on Computing 30(6):2008-2035 (March 2001) 
