@@ -4,6 +4,7 @@ categories:
   - talk
 title:  " Computing Igusa's local zeta function of univariates in deterministic polynomial-time "
 author: " Ashish Dwivedi"
+fixture: "14-07-2020"
 coordinates: 
 slides: "2020-07-14-Ashish-Dwivedi.pdf"
 link: "https://youtu.be/3OQt2TgOkxw"

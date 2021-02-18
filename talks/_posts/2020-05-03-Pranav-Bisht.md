@@ -4,6 +4,7 @@ categories:
   - talk
 title:  " Poly-time blackbox identity testing for sum of log-variate, constant-width ROABPs "
 author: " Pranav Bisht"
+fixture: "03-05-2020"
 coordinates: 
 slides: "2020-05-03-Pranav-Bisht.pdf"
 link: "https://youtu.be/2zzfCgi2NkA"

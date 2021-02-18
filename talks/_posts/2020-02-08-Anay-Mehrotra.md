@@ -4,6 +4,7 @@ categories:
   - talk
 title:  "Matroid intersection"
 author: " Anay Mehrotra"
+fixture: "08-02-2020"
 coordinates: KD103, 4 PM 8th Feb 2020
 tags: 
 ---

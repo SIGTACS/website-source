@@ -4,6 +4,7 @@ categories:
   - talk
 title:  "Counterexamples to Hedetniemi's Conjecture"
 author: "Nikhil Shagrithaya"
+fixture: "18-02-2020"
 coordinates: KD103, 4 PM 18th Jan 2020
 tags: 
 ---

@@ -4,6 +4,7 @@ categories:
   - talk
 title:  "Characterising Hardness for QBF Resolution via Circuit Complexity."
 author: " Prof. Meena Mahajan"
+fixture: "14-02-2020"
 coordinates: KD101, 11AM 14th Feb 2020
 tags: 
 ---

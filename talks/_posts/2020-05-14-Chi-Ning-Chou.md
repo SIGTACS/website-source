@@ -4,6 +4,7 @@ categories:
   - talk
 title:  " Optimal Streaming Approximations for all Boolean Max-2CSPs "
 author: " Chi-Ning Chou"
+fixture: "14-05-2020"
 coordinates: 
 slides: "2020-05-14-Chi-Ning-Chou.pdf"
 link: "https://youtu.be/en_E2J1YDnI"

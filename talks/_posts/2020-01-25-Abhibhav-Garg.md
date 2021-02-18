@@ -4,6 +4,7 @@ categories:
   - talk
 title:  "Barrington's Theorem"
 author: "Abhibhav Garg"
+fixture: "25-01-2020"
 coordinates: KD103, 4:30 PM 25th Jan 2020
 tags: 
 ---

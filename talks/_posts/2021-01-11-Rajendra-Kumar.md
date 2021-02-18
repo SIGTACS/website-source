@@ -4,9 +4,10 @@ categories:
   - talk
 title:  " Dimension preserving reductions between lattice problems. "
 author: "  Rajendra Kumar"
-coordinates: https://meet.google.com/tkc-dwmj-occ
+fixture: "14-07-2020"
+coordinates: 
 slides: "2021-01-11-Rajendra-Kumar.pdf"
-link: 
+link: "https://youtu.be/92IUuyfChLc"
 tags: 
 ---
 ## Abstract
