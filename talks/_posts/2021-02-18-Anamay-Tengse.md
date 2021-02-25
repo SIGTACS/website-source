@@ -6,7 +6,7 @@ title:  "VNP (probably) does not have natural proofs."
 author: "Anamay Tengse"
 fixture: "25-02-2021"
 coordinates: "4PM 25th Feb 2021"
-slides: 
+slides: "2021-02-25-Anamay-Tengse.pdf"
 link: 
 tags: 
 ---
